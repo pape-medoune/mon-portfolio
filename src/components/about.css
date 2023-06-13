@@ -1,0 +1,26 @@
+.shape{
+    position: absolute;
+    clip-path: inset(5% 20% 15% 10%);
+    background: #fcaf3c;
+    width: 70%;
+    z-index: 5;
+    height: 90%;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+.texte h1{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.texte h1::before{
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 3px;
+    background: #fcaf3c;
+    bottom: 0;
+    left: 0;
+}
