@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Bree+Serif&family=Foldit:wght@500&family=Hanalei+Fill&display=swap');
+.i-title{  
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-right{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.iT{
+    height: 100%;
+    font-weight: bold;
+    width: 100%;
+    font-size: 35px;
+    animation:  moveToTop 8s  infinite alternate;
+}
+
+.iT-item{
+    height: 50px;
+    font-size: 30px;
+    color: #00dfc4;
+}
+
+@keyframes moveToTop {
+    50%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(-150px);
+    }
+}
+
+.i-name{
+    font-size: 1.8rem;
+    font-family: poppins;
+    letter-spacing: 9px;
+}
+
+.i-intro{ 
+    font-weight: lighter;
+} 
+
+.bienvenue{
+    font-family: 'Andika', sans-serif;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.cv h2{
+    font-family: poppins;
+    position: relative;
+}
+
+.nextStep{
+    animation: animate 1s linear infinite alternate-reverse;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.iconAi{
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}

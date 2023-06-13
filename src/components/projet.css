@@ -1,0 +1,19 @@
+.projet{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.projet::before{
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 3px;
+    background: #fcaf3c;
+    bottom: 0;
+    left: 0;
+}
+
+.cards{
+    font-family: poppins;
+}

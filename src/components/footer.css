@@ -1,0 +1,8 @@
+.txt{
+    font-family: poppins;
+}
+
+.txt:nth-child(1)
+{
+    letter-spacing: 5px;
+}
