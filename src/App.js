@@ -10,9 +10,10 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div className="overflow-x-hidden text-white ">
-        <Header/>
+        
 
         <main className="w-full  bg-[#121212] h-fit">
+          <Header/>
           <Hero/>
           <About/>
           <Skills/>
@@ -20,10 +21,6 @@ function App() {
           <Contact/>
           <Footer/>
         </main>
-
-        <footer>
-          
-        </footer>
 
     </div>
   );
