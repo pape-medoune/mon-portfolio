@@ -2,11 +2,12 @@
     position: absolute;
     clip-path: inset(5% 20% 15% 10%);
     background: #fcaf3c;
-    width: 70%;
+    width: 101%;
     z-index: 5;
-    height: 90%;
+    height: 78%;
     border-radius: 10px;
-    transform: rotate(90deg);
+    TOP: 25%;
+    LEFT: -4%;
 }
 
 .texte h1{

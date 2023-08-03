@@ -13,3 +13,18 @@ html{
   transition: 4s;
   scroll-behavior: smooth;
 }
+
+.reveal{
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  transition: 2s ease-in-out;
+}
+
+.reveal.active{
+  position: relative;
+  top: 0px;
+  opacity: 1;
+  transition: 1s ease-in-out;
+  z-index: 10;
+}

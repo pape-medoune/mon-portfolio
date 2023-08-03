@@ -12,7 +12,7 @@ function Projet() {
 
     return (
         <div className='flex flex-col justify-center items-center' id="Projets">    
-            <h1 className='projet text-center text-[2.2rem]'>Mes Projets</h1>
+            <h1 className='projet text-center text-[2.2rem] reveal'>Mes Projets</h1>
             <div className='cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  text-center gap-5 p-5'>
                 {showData}
             </div>

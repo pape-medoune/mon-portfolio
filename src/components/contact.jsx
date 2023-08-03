@@ -9,23 +9,23 @@ function Contact() {
   return (
         
       <div className='flex flex-col items-center' id="Contact">
-        <h1 className='contacte text-center text-[2.2rem]'>Contacts</h1>
+        <h1 className='contacte text-center text-[2.2rem] reveal'>Contacts</h1>
         <div className='w-full p-5 flex object-contain items-center justify-around flex-wrap'>
-            <div className='p-10 h-fit w-[300px] reveal  '>
+            <div className='p-10 reveal h-fit w-[300px] reveal  '>
                 <a href="mailto:mouhamedounedev@gmail.com" className='flex  text-center flex-col items-center justify-center'>
                   <SiMinutemailer size={20}/>
                   <h1>M'envoyer un mail</h1>
                 </a>    
             </div>
 
-            <div className='p-10 h-fit w-[300px] flex items-center justify-center text-center flex-col reveal '>
+            <div className='p-10 reveal h-fit w-[300px] flex items-center justify-center text-center flex-col reveal '>
                 <a href="https://wa.me/779509892" className='flex  text-center flex-col items-center justify-center'>
                 <BsWhatsapp size={25}/>
                 <h1 className='w-full'>Mon Whatsapp</h1>   
                 </a> 
             </div>
 
-            <div className='p-10 h-fit w-[300px] text-center flex items-center justify-center flex-col reveal '>
+            <div className='p-10 reveal h-fit w-[300px] text-center flex items-center justify-center flex-col reveal '>
                 <a href="tel:779509892" className='flex  text-center flex-col items-center justify-center'>
                 <BsFillTelephoneFill size={25}/>
                 <h1>Appelez Moi</h1>  

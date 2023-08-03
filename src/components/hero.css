@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Bree+Serif&family=Foldit:wght@500&family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Bree+Serif&family=Comforter&family=Foldit:wght@500&family=Hanalei+Fill&family=Tilt+Prism&display=swap');
+
 .i-title{  
     height: 50px;
     overflow: hidden;
@@ -37,20 +39,30 @@
 }
 
 .i-name{
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-family: poppins;
-    letter-spacing: 9px;
+    letter-spacing: 4px;
+}
+
+.hello{
+    font-size: 1.6rem;
 }
 
 .i-intro{ 
     font-weight: lighter;
 } 
 
+.i-intro span{
+    font-family: poppins;
+}
+
 .bienvenue{
     font-family: 'Andika', sans-serif;
-    font-family: 'Bree Serif', serif;
-    font-family: 'Foldit', cursive;
-    font-family: 'Hanalei Fill', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Comforter', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Hanalei Fill', cursive;
+font-family: 'Tilt Prism', cursive;
 }
 
 .cv h2{
